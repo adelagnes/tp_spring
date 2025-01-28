@@ -8,7 +8,7 @@ public class BonjourController {
 
     @GetMapping("/bonjour")
     public String bonjour() {
-        return "Bonjour le monde !    ";
+        return "Bonjour le monde !     ";
     }
 }
 
