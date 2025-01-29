@@ -1,4 +1,4 @@
-// src/main/java/Spring_rendu/repository/ArticleRepository.java
+
 package Spring_rendu.repository;
 
 import Spring_rendu.model.Article;

@@ -22,7 +22,7 @@ public class ArticleController {
     @GetMapping("/{id}")
     public Article getArticleById(@PathVariable Long id) {
         return articleService.getArticleById(id)
-                .orElseThrow(() -> new RuntimeException("Article not found: " + id));
+                .orElseThrow(() -> new RuntimeException("pas d'article : " + id));
     }
 
     @PostMapping

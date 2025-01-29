@@ -1,7 +1,7 @@
 package Spring_rendu.service;
 
 import Spring_rendu.model.Article;
-import org.springframework.stereotype.Component;
+
 
 
 import java.util.List;

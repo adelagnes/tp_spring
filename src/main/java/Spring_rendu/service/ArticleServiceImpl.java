@@ -39,7 +39,7 @@ public class ArticleServiceImpl implements ArticleService {
                     article.setPublicationDate(updatedArticle.getPublicationDate());
                     return articleRepository.save(article);
                 })
-                .orElseThrow(() -> new RuntimeException("Article not found: " + id));
+                .orElseThrow(() -> new RuntimeException("Article pas trouve: " + id));
     }
 
     @Override
